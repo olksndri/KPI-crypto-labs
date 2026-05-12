@@ -30,7 +30,7 @@ def run_rsa_lab():
     print(f"1.3. Результат розшифрування: {decrypted_text}")
 
     # 1.4 Розшифрування НЕзашифрованого тексту
-    raw_data = "Це просто звичайний текст, не шифр".encode("utf-8")
+    raw_data = original_text.encode("utf-8")
     print(f"\n1.4. Спроба розшифрувати незашифровані дані: {raw_data}")
 
     try:
